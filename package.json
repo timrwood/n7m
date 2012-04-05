@@ -1,0 +1,32 @@
+{
+    "name": "n7m",
+    "version": "0.0.1",
+    "description": "Moment.js is a javascript date library converting plain text to numeronyms.",
+    "homepage": "https://github.com/timrwood/n7m",
+    "author": "Tim Wood <washwithcare@gmail.com> (http://timwoodcreates.com/)",
+    "keywords": [
+        "numeronyms",
+        "i18n"
+    ],
+    "main": "./n7m.js",
+    "engines": {
+        "node": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/timrwood/n7m.git"
+    },
+    "bugs": {
+        "url": "https://github.com/timrwood/n7m/issues"
+    },
+    "licenses" : [
+        {
+            "type" : "MIT"
+        }
+    ],
+    "devDependencies" : {
+        "jshint"    : "latest",
+        "uglify-js" : "latest",
+        "nodeunit"  : "latest"
+    }
+}
