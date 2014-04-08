@@ -9,7 +9,7 @@
 
     function replace(string) {
         var len = string.length;
-        if (len < 3) {
+        if (len < 4) {
             return string;
         } else {
             return string[0] + (len - 2) + string[len - 1];
